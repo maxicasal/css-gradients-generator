@@ -1,0 +1,265 @@
+.left_panel {
+  float: left;
+  width: 200px;
+  height: 100vh;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.left_panel_title {
+  font-size: 27px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+  width: 180px;
+}
+
+.left_panel_author {
+  margin-top: 10px;
+  font-size: 15px;
+  display: inline-block;
+  text-align: left;
+  width: 180px;
+}
+
+.main_control_panel {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper_inputColor1 {
+  width: 92.5px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.wrapper_inputColor2 {
+  width: 92.5px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 4px;
+  margin-right: 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.gradientType_c {
+  margin-bottom: 10px;
+}
+
+.inputColor1 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.inputColor2 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.left_panel_GradientType {
+  border: 1px solid #cccccc;
+  outline: none;
+  background-color: white;
+  border-radius: 4px;
+  font-family: 'Varela Round', sans-serif;
+  height: 30px;
+  cursor: pointer;
+
+  &:active {
+    background-color: #cccccc;
+  }
+}
+
+.GradientType1 {
+  width: 92.5px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.GradientType2 {
+  width: 92.5px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.choseDirection_c {
+  margin-top: 20px;
+}
+
+.choseDirection_btn {
+  border: 1px solid #cccccc;
+  outline: none;
+  background-color: white;
+  border-radius: 4px;
+  font-family: 'Varela Round', sans-serif;
+  height: 30px;
+  font-size: 6px;
+  width: 60px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px 15px;
+  cursor: pointer;
+
+  &:active {
+    background-color: #cccccc;
+  }
+}
+
+.topLeftBtnDirection {
+  margin-left: 5px;
+  background-image: url("resources/icons/arrow-top-left.svg");
+}
+
+.topBtnDirection {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-image: url("resources/icons/arrow-up.svg");
+}
+
+.topRightBtnDirection {
+  margin-right: 5px;
+  background-image: url("resources/icons/arrow-top-right.svg");
+}
+
+.leftBtnDirection {
+  margin-left: 5px;
+  background-image: url("resources/icons/arrow-left.svg");
+}
+
+.centerBtnDirection {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-image: url("resources/icons/checkbox-blank-circle-outline.svg");
+}
+
+.rightBtnDirection {
+  margin-right: 5px;
+  background-image: url("resources/icons/arrow-right.svg");
+}
+
+.bottomLeftBtnDirection {
+  margin-left: 5px;
+  background-image: url("resources/icons/arrow-bottom-left.svg");
+}
+
+.bottomBtnDirection {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-image: url("resources/icons/arrow-down.svg");
+}
+
+.bottomRightBtnDirection {
+  margin-right: 5px;
+  background-image: url("resources/icons/arrow-bottom-right.svg");
+}
+
+.choseDirectionTop_c {
+  margin-top: 5px;
+}
+
+.choseDirectionCenter_c {
+  margin-top: 5px;
+}
+
+.choseDirectionBottom_c {
+  margin-top: 5px;
+}
+//___________________ Code input ___________________________
+
+.codeOutput_c {
+  height: 50px;
+  width: 500px;
+  bottom: 0;
+  position: fixed;
+  right: 0;
+  background-color: white;
+  line-height: 50px;
+  float: left;
+  overflow: hidden;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.codeOutput {
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.icon_btn {
+  height: 50px;
+  width: 50px;
+  outline: none;
+  border: none;
+  padding: 0;
+  float:left;
+  background-color: #fff;
+  cursor: pointer;
+
+  &:active {
+    background-color: #cccccc;
+  }
+}
+
+.paste {
+  background-image: url("resources/icons/content-copy.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aboutBtn {
+  width: 190px;
+  margin-left: 5px;
+  margin-right: 5px;
+  outline: none;
+  border: none;
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  margin-top: 50px;
+  border: 1px solid #cccccc;
+  background-color: white;
+  border-radius: 4px;
+  color: #000;
+  height: 30px;
+  cursor: pointer;
+  &:active {
+    background-color: #cccccc;
+  }
+}
+
+.catuxy_tag {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 12px;
+  width: 200px;
+  margin-top: 80px;
+  text-align: justify;
+  padding: 10px;
+}
+//___________________ Right Panel ___________________________
+
+.right_panel {
+  float: left;
+  height: 100vh;
+  width: calc(100% - 200px);
+}
+
+.sketch-picker {
+  position: fixed;
+  cursor: pointer;
+}

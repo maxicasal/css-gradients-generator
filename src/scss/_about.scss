@@ -1,0 +1,52 @@
+.about_c{
+text-align: center;
+}
+
+.about_back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    background-image: url("resources/icons/chevron-left.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    outline: none;
+    border:1px solid #cccccc;
+    background-color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+      &:active {
+        background-color: #cccccc;
+      }
+}
+
+.about_title{
+    display: inline-block;
+font-size: 40px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+padding: 20px;
+width: 100%;
+margin-bottom: 60px;
+margin-top: 30px;
+}
+
+
+.about_description{
+    width:60%;
+    display: inline-block;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    text-align: left;
+    border: 1px solid #cccccc;
+}
